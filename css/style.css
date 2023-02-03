@@ -1,0 +1,26 @@
+#parent-rtv {
+  display: flex;
+  flex-direction: row;
+}
+
+#child1-rtv{
+  width: 150px;
+  height: 100px;
+  background-color: rgb(39, 176, 34);
+}
+#child2-rtv{
+  width: 150px;
+  height: 100px;
+  background-color: rgb(39, 137, 207);
+} 
+#child3-rtv {
+  width: 150px;
+  height: 100px;
+  background-color: rgb(14, 128, 116);
+}
+
+#child2-rtv {
+  position: relative;
+  left: 65px;
+  top: 60px;
+}

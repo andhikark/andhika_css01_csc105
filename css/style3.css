@@ -1,0 +1,26 @@
+/* ABSOLUTE */
+#parent-abs {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+#child1-abs, 
+#child2-abs, 
+#child3-abs {
+    width: 150px;
+    height: 125px;
+    background-color: rgb(44, 131, 155);
+}
+
+#child3-abs{
+    position: relative;
+    left: 10px;
+}
+
+#child2-abs {
+    position: absolute;
+    left: 75px;
+    top: 60px;
+}
