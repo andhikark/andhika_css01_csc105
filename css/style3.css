@@ -1,9 +1,11 @@
 /* ABSOLUTE */
 #parent-abs {
     display: flex;
+    height: 300px;
+    width: 510px;
     flex-direction: row;
     position: relative;
-
+    border-style: dashed;
 }
 
 #child1-abs, 
@@ -15,12 +17,19 @@
 }
 
 #child3-abs{
+    top: 10px;
+    position: relative;
+    left: 20px;
+}
+
+#child1-abs{
+    top: 10px;
     position: relative;
     left: 10px;
 }
 
 #child2-abs {
     position: absolute;
-    left: 75px;
+    left: 85px;
     top: 60px;
 }
